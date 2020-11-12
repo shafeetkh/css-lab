@@ -12,11 +12,16 @@ body {
 	margin: 0;
 }
 
-/* HEADER + NAV */
 a {
 	color: rgb(50, 50, 117);
 	text-decoration: none;
 }
+
+a:hover {
+	background-color: rgba(128, 128, 128, 0.432);
+}
+
+/* HEADER + NAV */
 
 header {
 	background: #343a5c;
@@ -106,6 +111,10 @@ header a {
 	color: white;
 }
 
+#bottom-cta a:hover {
+	background: gray;
+}
+
 /* FOOTER */
 
 footer {
@@ -125,6 +134,7 @@ footer ul {
 footer ul li {
 	font-size: 1.2em;
 	margin: 0 1em;
+	cursor: pointer;
 }
 
 footer .fab {
