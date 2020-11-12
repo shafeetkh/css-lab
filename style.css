@@ -94,11 +94,15 @@ header a {
 #bottom-cta {
 	text-align: center;
 	font-size: 1.2em;
-	background: rgb(50, 50, 117);
 	padding: 1em 0;
+	width: 100%;
+	background: rgba(204, 204, 204, 0.733);
 }
 
 #bottom-cta a {
+	font-weight: 700;
+	background: rgba(79, 79, 79, 0.46);
+	padding: 1em 3em;
 	color: white;
 }
 
@@ -108,6 +112,8 @@ footer {
 	font-size: 0.9em;
 	display: flex;
 	justify-content: space-around;
+	background: #343a5c;
+	color: white;
 }
 
 footer ul {
@@ -119,4 +125,8 @@ footer ul {
 footer ul li {
 	font-size: 1.2em;
 	margin: 0 1em;
+}
+
+footer .fab {
+	color: white;
 }
